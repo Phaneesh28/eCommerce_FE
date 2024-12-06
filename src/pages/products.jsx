@@ -7,7 +7,7 @@ import Cookies from 'js-cookie';
 import { TailSpin } from 'react-loader-spinner';
 
 // Centralize backend URL for easier updates
-const BACKEND_URL = 'http://localhost:3020';
+const BACKEND_URL = 'https://ecommerce-be-x0ow.onrender.com';
 
 const Products = () => {
   const [productList, setProductList] = useState([]);
