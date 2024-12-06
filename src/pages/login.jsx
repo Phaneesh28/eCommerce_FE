@@ -5,7 +5,7 @@ import axios from 'axios';
 import '../styles/landingpage.css';
 import { TailSpin } from 'react-loader-spinner';
 
-const BACKEND_URL = 'http://localhost:3020';
+const BACKEND_URL = 'https://ecommerce-be-x0ow.onrender.com';
 
 const LandingPage = () => {
   const [showLogin, setShowLogin] = useState(true);
