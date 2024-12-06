@@ -6,7 +6,7 @@ import { TailSpin } from 'react-loader-spinner';
 import '../styles/prodsComponent.css';
 
 // Centralize backend URL
-const BACKEND_URL = 'http://localhost:3020';
+const BACKEND_URL = 'https://ecommerce-be-x0ow.onrender.com';
 
 const DetailsPage = (props) => {
   const [details, setDetails] = useState(null); // Initial state is null for better handling
